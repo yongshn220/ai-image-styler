@@ -10,19 +10,16 @@ interface Props {
 }
 
 export function StyleCopyIcon({text}: Props) {
-  const [selectedPrompts, setSelectedPrompts] = useRecoilState(selectedPromptsAtom)
-  const [promptTextMode, setPromptTextMode] = useState(false)
   const [copied, setCopied] = useState("")
 
   function handleCopy() {
     setCopied(text)
-    navigator.clipboard.writeText(text)
+    navigator.clipboard.writeText(text.toLowerCase())
     setTimeout(() => setCopied(""), 3000)
   }
 
   return (
-    <div className='copy_btn' onClick={handleCopy} onMouseEnter={() => setPromptTextMode(true)}
-         onMouseLeave={() => setPromptTextMode(false)}>
+    <div className='copy_btn' onClick={handleCopy}>
       <Image
         src={copied === text
           ? '/icons/tick.svg'

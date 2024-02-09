@@ -13,7 +13,7 @@ interface Props {
 
 export default function Home({searchParams}: Props) {
 
-  const selectedMenu = searchParams.menu?? "Photography"
+  const selectedMenu = searchParams.menu?? "Style"
   const selectedSubMenu = searchParams.submenu
 
   const styleGroup = styleData[selectedMenu]

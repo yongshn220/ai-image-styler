@@ -16,9 +16,9 @@ export function StyleList({styleList}: Props) {
           styleList.map((style, i) => (
             <div key={i} className="aspect-[4/3] rounded-lg">
               <StyleClickHandler prompt={style.name}>
-                <div className="relative aspect-[2/1]">
+                <div className="relative aspect-[3/2]">
                   <Image
-                    src={'/images/styles/photography/sample.png'}
+                    src={`${style.url? style.url : "/images/styles/photography/sample.png"}`}
                     alt={`${style.name}`}
                     fill
                     sizes="50vw, 25vw, 25vw"
@@ -27,7 +27,7 @@ export function StyleList({styleList}: Props) {
                 </div>
               </StyleClickHandler>
               <div className="flex-between p-3 bg-gray-900 rounded-b-lg">
-                <div className="">
+                <div className="text-sm">
                   {style.name}
                 </div>
                 <div>
