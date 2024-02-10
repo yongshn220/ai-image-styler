@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Nav() {
   return (
     <header className="flex h-16 w-full items-center px-4 md:px-6">
-      <Link className="mr-6 flex items-center space-x-2" href="#">
+      <Link className="mr-6 flex items-center space-x-2" href="/">
         <Image
           src={'/icons/logo.png'}
           width={30}

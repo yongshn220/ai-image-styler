@@ -9,11 +9,7 @@ export interface StyleInfo {
 
 export const styleData: StyleData = {
   Style: {
-    Art: [
-      {
-        name: "Ambient occlusion",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fambient-occlusion.png?alt=media&token=cddef3e5-0ad7-49b5-9ec9-85860306c245",
-      },
+    Illustration: [
       {
         name: "Colored pencil style",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fcolored-pencil.webp?alt=media&token=d7ac5503-ea90-45ec-90ca-5c66d9c94d4d",
@@ -35,16 +31,68 @@ export const styleData: StyleData = {
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Flogo.png?alt=media&token=ce3d2c90-e087-476c-972b-ce3024e524b9",
       },
       {
-        name: "Paper figured style",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fpaper-figured.png?alt=media&token=72df2525-afce-4d94-9492-e59255d06aa7",
-      },
-      {
         name: "Sticker style",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fsticker.png?alt=media&token=d2356198-fe67-41a8-9c98-56ea779366b2",
       },
       {
         name: "Vintage cartoon style",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fvintage-cartoon.png?alt=media&token=574cec48-f7fc-4505-8972-9c7e12c7aa86",
+      },
+      {
+        name: "Tatto style",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Ftattoo.webp?alt=media&token=9734cbe4-0e35-4e16-a601-284ea74694c8",
+      },
+      {
+        name: "Stencil style",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fstencil.webp?alt=media&token=c6e484f3-a8e8-4008-b1f2-54a555ca088a",
+      },
+      {
+        name: "Shadowy",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fshadowy.webp?alt=media&token=3c256449-ed72-4a6c-998d-4c90bde69d35",
+      },
+      {
+        name: "Gradient Points",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fgradient-points.webp?alt=media&token=5eb584b0-a406-41fd-878c-ead665038141",
+      },
+      {
+        name: "Neo-pop art",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fneo-pop-art.webp?alt=media&token=95e0905f-4414-4eef-b480-1f63677dcce4",
+      }
+    ],
+    Artist: [
+      {
+        name: "Pablo Picasso",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fartist%2FPablo-Picasso.webp?alt=media&token=5dec459d-c095-4a23-8238-b37f64ee905a",
+      },
+      {
+        name: "Moebius",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fartist%2FMoebius.webp?alt=media&token=9e0807ea-8c29-4fdb-b678-5f61360a9310",
+      },
+      {
+        name: "Mo Willems",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fartist%2FMo-Willems.webp?alt=media&token=0cdc569e-871c-4e72-b583-319a5a45c4e1",
+      },
+      {
+        name: "Geoff Mcfetridge",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fartist%2FGeoff-Mcfetridge.webp?alt=media&token=9447d254-d37a-407a-86a7-1ee566c0bf53",
+      }
+    ],
+    Anime: [
+      {
+        name: "90s",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fanime%2Fanime-90s.webp?alt=media&token=9731f86a-b9a9-48ab-9023-aba7fd4cf2a5",
+      },
+      {
+        name: "Festival Poster",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fanime%2Fanime-festival-poster.webp?alt=media&token=3da73f09-5417-467b-8b91-97e10ba54a9f",
+      },
+      {
+        name: "Holography",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fanime%2Fanime-holography.webp?alt=media&token=6d096b80-3a67-4295-8528-d3cc2e32a5d8",
+      },
+      {
+        name: "Lofi",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fanime%2Fanime-lofi.webp?alt=media&token=d6231d14-329b-4a80-bf6e-c72aa61d76c0",
       }
     ],
     Painting: [
@@ -75,6 +123,14 @@ export const styleData: StyleData = {
       {
         name: "Watercolor",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fpainting%2Fwatercolor.png?alt=media&token=b3589fe8-2788-45ca-b688-7d999a54b342",
+      },
+      {
+        name: "Soft Pastel",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fpainting%2Fsoft-pastel.webp?alt=media&token=977d63c7-6b19-489f-88d2-1f685ceff26b",
+      },
+      {
+        name: "Gauache",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fpainting%2Fgouache.webp?alt=media&token=ccb49b53-ea86-4d1c-ab0e-9bb030ae51f6",
       }
     ],
     Photography: [
@@ -100,7 +156,7 @@ export const styleData: StyleData = {
       },
       {
         name: "Analog",
-        url: ""
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fphotography%2Fanalog.webp?alt=media&token=d566d8b9-46ec-4e63-a419-c54ae1a824ed"
       },
       {
         name: "Still Life",
@@ -115,6 +171,26 @@ export const styleData: StyleData = {
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fphotography%2Ffantasy.png?alt=media&token=c5d26e37-0821-4f78-adcc-f5f253f019cd"
       }
     ],
+    Geometry: [
+      {
+        name: "Sacred-Geometry",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fgeometry%2Fsacred-geometry.webp?alt=media&token=24e70ce1-234c-4b05-b63d-2b943cd71541",
+      }
+    ],
+    Material: [
+      {
+        name: "Liquify",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fmaterial%2Fliquify.webp?alt=media&token=d7bbebc0-4286-401a-ba51-d8aaaf9a5215",
+      },
+      {
+        name: "Paper figured style",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fpaper-figured.png?alt=media&token=72df2525-afce-4d94-9492-e59255d06aa7",
+      },
+      {
+        name: "Ambient occlusion",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fillustration%2Fambient-occlusion.png?alt=media&token=cddef3e5-0ad7-49b5-9ec9-85860306c245",
+      },
+    ]
   },
   Person: {
     Fashion: [
