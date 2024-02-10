@@ -31,10 +31,10 @@ export default function Home({searchParams}: Props) {
   return (
     <div className="w-full flex-center flex-col">
       <h1 className="text-4xl md:text-6xl font-semibold blue_gradient py-4">
-        AI Image Styles
+        AI Inspire Studio
       </h1>
       <h2 className="text-lg text-gray-600 sm:text-xl max-w-2xl">
-        These are the various styles for AI Image Generator
+        Discover the art of keyword and style-driven AI image generation to effortlessly create and share your visionary art
       </h2>
       <Prompt prompt="Background, Light, f-22"/>
       <Menu selectedMenu={selectedMenu} selectedSubMenu={selectedSubMenu}/>
