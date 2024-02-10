@@ -7,7 +7,10 @@ const nextConfig = {
         hostname: 'firebasestorage.googleapis.com'
       }
     ]
-  }
+  },
+  publicRuntimeConfig: {
+    metadataBase: 'https://www.keywarts.com/',
+  },
 };
 
 export default nextConfig;

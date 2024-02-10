@@ -117,6 +117,72 @@ export const styleData: StyleData = {
     ],
   },
   Person: {
+    Fashion: [
+      {
+        name: "High Fashion",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhigh-fashion.png?alt=media&token=e72c640f-94cc-485b-a137-4633793bb7f1",
+      },
+      {
+        name: "Casual Chic",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fcasual-chic.png?alt=media&token=7e9f7684-441a-46ba-a6e7-27909fbc22c7",
+      },
+      {
+        name: "Streetwear",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fstreetwear.png?alt=media&token=0159cd46-ddfe-4b74-b50a-5d8868835ec2",
+      },
+      {
+        name: "Minimalist",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fminimalist.png?alt=media&token=9cdc4762-d3c9-4f12-a5cf-7292457d21e3",
+      },
+      {
+        name: "Vintage",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fvintage.png?alt=media&token=78e3ead4-fdd1-430e-b5a5-844375909534",
+      },
+      {
+        name: "Urban",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Furban.png?alt=media&token=ff4404ca-dbbf-4565-a07d-e9791ab2f4f6",
+      },
+      {
+        name: "Athletic",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fathletic.png?alt=media&token=c4b88cb4-3347-46f5-89c8-929eaab6f306",
+      },
+      {
+        name: "Bohemian",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fbohemian.png?alt=media&token=e3abdf58-dabd-4314-9e78-d253e0d6920b",
+      },
+      {
+        name: "Hippie",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhippie.png?alt=media&token=987367dc-f1c4-4554-b695-50d5f486c02d",
+      },
+      {
+        name: "Techwear",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Ftechwear.png?alt=media&token=c0066572-03f3-4bdb-bf60-7e73ac3e6402",
+      },
+      {
+        name: "Grunge",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fgrunge.png?alt=media&token=0da95dd6-d38e-4fd9-a64d-0bb14e7c10f0",
+      },
+      {
+        name: "Punk",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fpunk.png?alt=media&token=34c4eafd-0966-4dda-aecf-7c65d81787b8",
+      },
+      {
+        name: "Futuristic",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Ffuturistic.png?alt=media&token=204507b5-e836-461f-8bfb-e5264241617e",
+      },
+      {
+        name: "Hiphop",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhiphop.png?alt=media&token=0dfa2612-269d-4d93-bc5b-a9b0b9fa0127",
+      },
+      {
+        name: "Haute Couture",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhaute-couture.png?alt=media&token=68f7ee1f-ca73-4b4a-9b1a-dc7232e17a95",
+      },
+      {
+        name: "Cyberpunk",
+        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fcyberpunk.png?alt=media&token=88d75554-ba2e-4bfd-acdc-8e6ebc8fd7cf",
+      }
+    ],
     Emotion: [
       {
         name: "Happy",
@@ -206,77 +272,7 @@ export const styleData: StyleData = {
         name: "Envious",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Femotion%2Fenvious.png?alt=media&token=4d46edfa-0927-4263-81f6-f90674baaccc",
       },
-      {
-        name: "Bitter",
-        url: "",
-      },
     ],
-    Fashion: [
-      {
-        name: "High Fashion",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhigh-fashion.png?alt=media&token=e72c640f-94cc-485b-a137-4633793bb7f1",
-      },
-      {
-        name: "Casual Chic",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fcasual-chic.png?alt=media&token=7e9f7684-441a-46ba-a6e7-27909fbc22c7",
-      },
-      {
-        name: "Streetwear",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fstreetwear.png?alt=media&token=0159cd46-ddfe-4b74-b50a-5d8868835ec2",
-      },
-      {
-        name: "Minimalist",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fminimalist.png?alt=media&token=9cdc4762-d3c9-4f12-a5cf-7292457d21e3",
-      },
-      {
-        name: "Vintage",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fvintage.png?alt=media&token=78e3ead4-fdd1-430e-b5a5-844375909534",
-      },
-      {
-        name: "Urban",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Furban.png?alt=media&token=ff4404ca-dbbf-4565-a07d-e9791ab2f4f6",
-      },
-      {
-        name: "Athletic",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fathletic.png?alt=media&token=c4b88cb4-3347-46f5-89c8-929eaab6f306",
-      },
-      {
-        name: "Bohemian",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fbohemian.png?alt=media&token=e3abdf58-dabd-4314-9e78-d253e0d6920b",
-      },
-      {
-        name: "Hippie",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhippie.png?alt=media&token=987367dc-f1c4-4554-b695-50d5f486c02d",
-      },
-      {
-        name: "Techwear",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Ftechwear.png?alt=media&token=c0066572-03f3-4bdb-bf60-7e73ac3e6402",
-      },
-      {
-        name: "Grunge",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fgrunge.png?alt=media&token=0da95dd6-d38e-4fd9-a64d-0bb14e7c10f0",
-      },
-      {
-        name: "Punk",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fpunk.png?alt=media&token=34c4eafd-0966-4dda-aecf-7c65d81787b8",
-      },
-      {
-        name: "Futuristic",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Ffuturistic.png?alt=media&token=204507b5-e836-461f-8bfb-e5264241617e",
-      },
-      {
-        name: "Hiphop",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhiphop.png?alt=media&token=0dfa2612-269d-4d93-bc5b-a9b0b9fa0127",
-      },
-      {
-        name: "Haute Couture",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fhaute-couture.png?alt=media&token=68f7ee1f-ca73-4b4a-9b1a-dc7232e17a95",
-      },
-      {
-        name: "Cyberpunk",
-        url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fperson%2Ffashion%2Fcyberpunk.png?alt=media&token=88d75554-ba2e-4bfd-acdc-8e6ebc8fd7cf",
-      }
-    ]
   },
   Background: {
     Place: [
@@ -291,10 +287,6 @@ export const styleData: StyleData = {
       {
         name: "Mountain",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fbackground%2Fplace%2Fmountain.png?alt=media&token=6eb1a0bb-6c9a-4ba8-8a3a-d45ca1117402",
-      },
-      {
-        name: "Ocean",
-        url: "",
       },
       {
         name: "Tropical Island",
@@ -411,10 +403,6 @@ export const styleData: StyleData = {
       {
         name: "Underground Cave",
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fbackground%2Fplace%2Funderground-cave.png?alt=media&token=c78e5cfc-da4a-4332-958a-5e604e62cdf7",
-      },
-      {
-        name: "Baroque Church",
-        url: "",
       },
       {
         name: "Renaissance Palace",
@@ -553,7 +541,13 @@ export const styleData: StyleData = {
         url: "https://firebasestorage.googleapis.com/v0/b/ai-image-styler.appspot.com/o/sample%2Fcamera%2Flighting%2Fstadium.png?alt=media&token=3629c8f6-5f27-45e4-a5b0-e5f60b43f17c",
       },
     ],
-    Film: [
+  },
+}
+
+
+// Keep
+/*
+Film: [
       {
         name: "Ilford Delta 3200",
         url: "",
@@ -595,5 +589,4 @@ export const styleData: StyleData = {
         url: "",
       }
     ]
-  },
-}
+ */

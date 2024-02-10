@@ -13,20 +13,12 @@ interface Props {
 
 export default function Home({searchParams}: Props) {
 
-  const selectedMenu = searchParams.menu?? "Style"
-  const selectedSubMenu = searchParams.submenu
-
+  const selectedMenu = searchParams.menu?? Object.keys(styleData)[0]
   const styleGroup = styleData[selectedMenu]
 
-  let styleList: Array<StyleInfo> = [];
-  if (selectedSubMenu) {
-    styleList = styleGroup[selectedSubMenu]
-  }
-  else {
-    Object.values(styleGroup).forEach(styles => {
-      styleList.push(...styles)
-    })
-  }
+  const selectedSubMenu = searchParams.submenu?? Object.keys(styleGroup)[0]
+  const styleList = styleGroup[selectedSubMenu]
+
 
   return (
     <div className="w-full flex-center flex-col">
