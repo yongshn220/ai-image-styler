@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "@/components/nav/Nav";
 import {Provider} from "@/components/Provider/provider";
 import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,8 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} dark`}>
-        <Provider>
+    <head>
+      <link rel="icon" href="/icons/logo.png"/>
+      <GoogleAnalytics gaId="G-QKS6PM99ZD"></GoogleAnalytics>
+    </head>
+    <body className={`${inter.className} dark`}>
+    <Provider>
           <Nav/>
           <main className="app">
             {children}
