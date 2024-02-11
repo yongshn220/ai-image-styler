@@ -20,9 +20,9 @@ export function Footer() {
               className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               At Keywarts.com, we understand the challenges of finding the perfect prompt to kickstart your AI art
               journey.
-              That's why we've curated a selection of vivid images and corresponding keywords that spark imagination,
+              That&apos;s why we&apos;ve curated a selection of vivid images and corresponding keywords that spark imagination,
               pushing the boundaries of AI-generated art.
-              Whether you're looking to create digital paintings, illustrations, or unique artworks, our platform serves
+              Whether you&apos;re looking to create digital paintings, illustrations, or unique artworks, our platform serves
               as a bridge between your creativity and the powerful capabilities of AI.
             </p>
           </div>
