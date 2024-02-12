@@ -5,6 +5,14 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'firebasestorage.googleapis.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.midjourney.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.midjourney.com'
       }
     ]
   },

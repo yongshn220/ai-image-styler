@@ -6,6 +6,7 @@ import {Provider} from "@/components/Provider/provider";
 import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google'
 import {Footer} from "@/components/footer/footer";
+import { Toaster } from "@/components/ui/sonner"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
         <Nav/>
         <main className="app">
           {children}
+          <Toaster />
           <Analytics/>
         </main>
         <Footer/>
