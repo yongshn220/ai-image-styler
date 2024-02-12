@@ -15,6 +15,12 @@ export default function Nav() {
         <span className="text-xl">Keywarts</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
+        <Link className="text-sm font-medium hover:underline underline-offset-4" href="/studio">
+          Keywords & Reference
+        </Link>
+        <Link className="text-sm font-medium hover:underline underline-offset-4" href="/downloader">
+          Image Downloader
+        </Link>
       </nav>
     </header>
   )

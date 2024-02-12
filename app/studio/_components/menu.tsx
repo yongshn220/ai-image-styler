@@ -4,6 +4,7 @@ import {Button} from "@/components/ui/button";
 import qs from 'query-string'
 import {useRouter} from "next/navigation";
 import {styleData} from "@/style-data";
+import {RouteUrl} from "@/components/constants/constants";
 
 
 interface Props {
@@ -19,7 +20,7 @@ export function Menu({selectedMenu, selectedSubMenu}: Props) {
 
   function onMenuClick(menu: string) {
     const url = qs.stringifyUrl({
-      url: '/',
+      url: RouteUrl.STUDIO,
       query: {
         menu: menu,
       }
@@ -29,7 +30,7 @@ export function Menu({selectedMenu, selectedSubMenu}: Props) {
 
   function onSubmenuClick(submenu: string) {
     const url = qs.stringifyUrl({
-      url: '/',
+      url: RouteUrl.STUDIO,
       query: {
         menu: selectedMenu,
         submenu: submenu,

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import {useRecoilState} from "recoil";
-import {selectedPromptsAtom} from "@/app/(home)/_states/prompt-state";
+import {selectedPromptsAtom} from "@/app/studio/_states/prompt-state";
 import {useState} from "react";
 
 interface Props {

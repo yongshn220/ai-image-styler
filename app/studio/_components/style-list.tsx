@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {StyleInfo} from "@/style-data";
-import {StyleClickHandler} from "@/app/(home)/_components/style-click-handler";
-import {StyleCopyIcon} from "@/app/(home)/_components/style-copy-icon";
+import {StyleClickHandler} from "@/app/studio/_components/style-click-handler";
+import {StyleCopyIcon} from "@/app/studio/_components/style-copy-icon";
 
 
 interface Props {

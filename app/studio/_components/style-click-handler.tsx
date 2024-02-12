@@ -2,7 +2,7 @@
 
 import {ReactNode} from "react";
 import {useRecoilState, useSetRecoilState} from "recoil";
-import {selectedPromptsAtom} from "@/app/(home)/_states/prompt-state";
+import {selectedPromptsAtom} from "@/app/studio/_states/prompt-state";
 import qs from "query-string";
 
 

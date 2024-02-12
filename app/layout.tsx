@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Digital Art Generator Prompts",
     "Explore AI Art Styles"
   ],
+  metadataBase: new URL('https://www.keywarts.com/'),
 };
 
 export default function RootLayout({

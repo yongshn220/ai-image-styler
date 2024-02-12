@@ -4,7 +4,7 @@ import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} f
 import Image from 'next/image'
 import {useState} from "react";
 import {useRecoilState} from "recoil";
-import {selectedPromptsAtom} from "@/app/(home)/_states/prompt-state";
+import {selectedPromptsAtom} from "@/app/studio/_states/prompt-state";
 
 
 interface Props {
