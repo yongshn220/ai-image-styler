@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en">
     <head>
       <link rel="icon" href="/icons/logo.png"/>
-      <GoogleAnalytics gaId="G-QKS6PM99ZD"></GoogleAnalytics>
+      <GoogleAnalytics gaId="G-162Q3CQ7P6"></GoogleAnalytics>
     </head>
     <body className={`${inter.className} dark`}>
       <Provider>
