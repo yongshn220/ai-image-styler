@@ -1,4 +1,5 @@
 
 export const RouteUrl = {
-  STUDIO: "/studio"
+  STUDIO: "/studio",
+  ONE_TIME_DOWNLOADER: "/downloader",
 }
