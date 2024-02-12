@@ -2,6 +2,7 @@ import {Menu} from "@/app/studio/_components/menu";
 import {StyleList} from "@/app/studio/_components/style-list";
 import {Prompt} from "@/app/studio/_components/prompt";
 import {styleData, StyleInfo} from "@/style-data";
+import {HowToUseKeyword} from "@/components/footer/how-to-use/how-to-use-keywords";
 
 
 interface Props {
@@ -31,6 +32,7 @@ export default function StudioHome({searchParams}: Props) {
       <Prompt prompt="Background, Light, f-22"/>
       <Menu selectedMenu={selectedMenu} selectedSubMenu={selectedSubMenu}/>
       <StyleList styleList={styleList}/>
+      <HowToUseKeyword/>
     </div>
   );
 }

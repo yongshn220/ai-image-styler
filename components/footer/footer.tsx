@@ -1,5 +1,4 @@
 import UserFeedback from "@/components/footer/user-feedback";
-import {HowToUsePage} from "@/components/footer/how-to-use";
 
 
 export function Footer() {
@@ -27,7 +26,6 @@ export function Footer() {
             </p>
           </div>
         </section>
-        <HowToUsePage/>
         <UserFeedback/>
     </div>
     </div>

@@ -5,6 +5,7 @@ import {toast} from "sonner";
 import {useState} from "react";
 import Image from 'next/image'
 import loadImage from "@/action/loadImage";
+import {HowToUseOneClickDownloader} from "@/components/footer/how-to-use/how-to-use-one-click-downloader";
 
 export default function DownloaderHome() {
   const [savedImages, setSavedImages] = useState<Array<any>>([])
@@ -35,11 +36,11 @@ export default function DownloaderHome() {
 
   return (
     <section className="w-full  flex-center flex-col mt-10">
-      <span className="text-2xl md:text-4xl font-semibold blue_gradient">One-Click Downloader </span>
+      <span className="text-2xl md:text-4xl font-semibold blue_gradient">One-Click Quick Downloader </span>
       <h1 className="mt-2">
         for Midjourney
       </h1>
-      <div className="w-full flex-center aspect-[3/1] border-2 rounded-xl group mb-2 mt-10"
+      <div className="w-full flex-center h-[300px] border-2 rounded-xl group mb-2 mt-10"
            onDragOver={handleDragOver} onDrop={handleDrop}>
         <div className="flex-center text-center text-xl text-gray-500 group-hover:text-white p-4">
           Drag & Drop the Image from Midjourney Explore
@@ -65,6 +66,7 @@ export default function DownloaderHome() {
           }
         </div>
       </div>
+      <HowToUseOneClickDownloader/>
     </section>
   )
 }

@@ -19,7 +19,7 @@ export default function Nav() {
           Keywords & Reference
         </Link>
         <Link className="text-sm font-medium hover:underline underline-offset-4" href="/downloader">
-          Image Downloader
+          One-Click Downloader
         </Link>
       </nav>
     </header>
