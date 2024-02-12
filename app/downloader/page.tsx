@@ -1,4 +1,5 @@
 'use client'
+import FileSaver from 'file-saver';
 
 
 export default function DownloaderHome() {
@@ -8,13 +9,17 @@ export default function DownloaderHome() {
   };
 
   const handleDrop = (e : React.DragEvent<HTMLDivElement>) => {
-    console.log("drop")
-    e.preventDefault();
-    const items = e.dataTransfer.items;
-    if (items.length) {
-      items[0].getAsString((str) => {
-        console.log('1: ', str)
-      })
+    try {
+      e.preventDefault();
+      const items = e.dataTransfer.items;
+      if (items.length) {
+        items[0].getAsString((str) => {
+          FileSaver.saveAs(str, str);
+        })
+      }
+    }
+    catch (e) {
+      console.log(e)
     }
   };
 
@@ -26,9 +31,6 @@ export default function DownloaderHome() {
           Drag & Drop the Image from Midjourney
         </div>
       </div>
-      <a href="https://cdn.midjourney.com/c1f010bb-b067-4ccf-ac6e-0d870367e64b/0_0.png" download>
-        Download Image
-      </a>
     </section>
   )
 }
